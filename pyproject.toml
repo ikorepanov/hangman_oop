@@ -1,0 +1,19 @@
+[project]
+name = "hangman-oop"
+version = "0.1.0"
+description = "First project of Sergey Zhukov's roadmap - in oop-style"
+readme = "README.md"
+authors = [
+    { name = "ikorepanov" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ruff>=0.8.1",
+]
+
+[project.scripts]
+hangman-oop = "hangman_oop:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
